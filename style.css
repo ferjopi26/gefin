@@ -1,0 +1,95 @@
+/******** label ******************/
+label{
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+/*************** combobox ************/
+combobox {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Arial;
+	border-radius: 5px;
+}
+
+/************** entry ***************/
+entry {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+entry:focus{
+	background-image: none;
+	border-color: #1E90FF;
+}
+
+/************** button ****************/
+.button {
+	border-radius: 0px;
+	background-image: none;
+	box-shadow: none;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Arial;
+	
+	/*border-color: #220D80;*/
+}
+
+.info{
+	background: #1E90FF;
+	color: #FFFFFF;
+}
+
+/*button:hover{
+	background-image: none;
+	color: #220D80;
+}*/
+
+.delete {
+	background: #FF0000;
+	color: #FFFFFF;
+	border: none;
+}
+
+.delete:hover{
+	color: #FFFFFF;
+}
+
+/************** treeview ****************/
+treeview.view header button{
+	color: #FFFFFF;
+	background: #1E90FF/*E5E5E5*/;
+	font-weight: bold;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+treeview.view {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Arial;
+	border-color: #A4A4A4;
+	border: solid;
+	/*background-color: #C4C4C4;*/
+}
+
+treeview.view:hover {
+	background-color: #1E90FF/*#FFA500*/;
+	color: #FFFFFF;
+}
+
+/********** textview ****************/
+textview.view {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+/******** headerbar *************/
+headerbar{
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+}

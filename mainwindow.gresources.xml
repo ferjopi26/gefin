@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gtkmm/gefin">
+    <file preprocess="xml-stripblanks">main_window.glade</file>
+    <file preprocess="xml-stripblanks">novo_item.glade</file>
+    <file preprocess="xml-stripblanks">atualiza_item.glade</file>
+    <file preprocess="xml-stripblanks">bancos.glade</file>
+    <file preprocess="xml-stripblanks">novo_banco.glade</file>
+    <file preprocess="xml-stripblanks">classes.glade</file>
+    <file preprocess="xml-stripblanks">nova_classe.glade</file>
+    <file preprocess="xml-stripblanks">especie.glade</file>
+    <file>style.css</file>
+  </gresource>
+</gresources>
